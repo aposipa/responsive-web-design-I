@@ -79,7 +79,7 @@ header nav a{
     text-decoration: none;
     padding: 2%;
 }
-.links{
+  .links{
 	display: flex;
     justify-content: space-evenly;
     
@@ -149,9 +149,7 @@ header nav a{
    }
 
 .circleimg{
-	
 	width: 33%;
-	
 	padding:2%;
 	padding-bottom:5%;
 }
@@ -257,5 +255,51 @@ footer{
 .page2{
 	padding: 1%;
 }
+@media (max-width:800px){
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo{
+        text-align: center;
+        padding: 2%;
+    }
+    .circleimg{
+        display: none;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    #innovation{
+        padding-bottom: 4%;
+    }
+    .contact{
+        padding-top:2%;
+    }
+}
 
-
+@media (max-width:500px){
+    .links{
+        flex-direction: column;
+    }
+    .links a{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding:3%;
+    }
+    .top-half{
+        flex-direction: column;
+    }
+    .bottom-half{
+        flex-direction: column;
+    }
+    .bottom-half .block{
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom:2%
+    }
+    .middle{
+        padding-top: 2%;
+        padding-bottom:2%
+    }
+}
