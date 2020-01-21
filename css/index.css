@@ -1,3 +1,321 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body{
+	box-sizing:border-box;
+	padding: 0;
+	margin-top:0;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	max-width: 100%;
+}
 
 
+header nav a{
+	color:grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 2%;
+}
+  .links{
+	display: flex;
+    justify-content: space-evenly;
+    
+}
+.second-img{
+	display: flex;
+	width:100%;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 84px;
+	text-align: center;
+	width: 33%;
+	padding:2%;
+	
+}
+.button {
+	border:2px solid grey;
+	padding: 2%;
+	text-align: center;
+    width:135px;
+    background-color: white;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    
+}
+#innovation{
+	display: flex;
+	border-bottom: 2px solid grey;
+	width: 100%;
+	justify-content: space-evenly;
+	
+}
+.middle-section {
+	width: 100%;
+   }
+   .top-half {
+	display: flex; 
+	justify-content: space-between;  
+	width: 100%;
+   }
+   .top-half .block {
+	   padding-top:2%;
+	   padding-bottom: 2%;
+   }
+   .middle {
+	   width: 100%;
+   }
+   .middle .block {
+	   width: 80%;
+	   padding-left: 18%;
+   }
+   .bottom-half {
+		display: flex;   
+		width: 100%;
+	   border-bottom: 2px solid grey;
+	   padding-bottom: 2%;
+   }
+   .bottom-half .block {
+	   width: 33%;
+   }
+
+.circleimg{
+	width: 33%;
+	padding:2%;
+	padding-bottom:5%;
+}
+.middle-img{
+	width:100%
+}
+footer{
+	text-align:center;
+}
+.second-img{
+	display: flex;
+	justify-content: center;
+}
+.services-top{
+	text-align: left;
+	padding:2% 0 2% 0;
+	border-bottom: 2px solid grey;
+}
+.multiple-services{
+	padding-top: 2%;
+}
+.top-two{
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+}
+.middle-two{
+	display: flex;
+	justify-content: space-around;
+	padding:2% 0 2% 0;
+}
+.bottom-two{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 4px solid grey;
+	padding:2% 0 2% 0;
+}
+.digital-design{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.uxui{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.learnmore{
+	width:20%;
+	border-radius: 10%;
+}
+.digital-marketing{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.web-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.ios-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.andriod-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.somefacts{
+	display: flex;
+	justify-content: space-evenly;
+	width:100%	
+}
+.services-info-img{
+	padding-top:3%;
+}
+.facts{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.page2{
+	padding: 1%;
+}
+
+	
+@media (max-width:800px){
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo{
+        text-align: center;
+        padding: 2%;
+    }
+    .circleimg{
+        display: none;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    #innovation{
+        padding-bottom: 4%;
+    }
+    .contact{
+        padding-top:2%;
+    }
+}
+
+@media (max-width:500px){
+	nav{
+		flex-direction: column-reverse;
+
+	}
+	.logo{
+		display: flex;
+		justify-content: center;
+	}
+    .links{
+        flex-direction: column;
+    }
+    .links a{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding:3%;
+    }
+    .top-half{
+        flex-direction: column;
+    }
+    .bottom-half{
+        flex-direction: column;
+    }
+    .bottom-half .block{
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom:2%
+    }
+    .middle{
+        padding-top: 2%;
+        padding-bottom:2%
+	}
+	.circleimg{
+        display: none;
+    }
+}
