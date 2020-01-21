@@ -60,7 +60,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+nav{
+	display: flex;
+	justify-content: space-evenly;
+}
 
 body{
 	box-sizing:border-box;
@@ -255,6 +258,8 @@ footer{
 .page2{
 	padding: 1%;
 }
+
+	
 @media (max-width:800px){
     nav{
         display: flex;
@@ -279,6 +284,14 @@ footer{
 }
 
 @media (max-width:500px){
+	nav{
+		flex-direction: column-reverse;
+
+	}
+	.logo{
+		display: flex;
+		justify-content: center;
+	}
     .links{
         flex-direction: column;
     }
@@ -301,5 +314,8 @@ footer{
     .middle{
         padding-top: 2%;
         padding-bottom:2%
+	}
+	.circleimg{
+        display: none;
     }
 }
